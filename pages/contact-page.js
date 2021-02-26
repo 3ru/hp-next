@@ -19,11 +19,11 @@ const Contact = () => {
                 </div>
                 <div className="mt-4">
                     <p className="font-bold">Address</p>
-                    <p className="text-xs mt-2 text-gray-600">Japan</p>
+                    <p className="text-xs mt-2 text-gray-600">Tokyo Japan</p>
                     <p className="font-bold">E-mail</p>
-                    <p className="text-xs mt-2 text-gray-600">ru@gmail.com</p>
+                    <p className="text-xs mt-2 text-gray-600">Ryuyxx@gmail.com</p>
                     <p className="font-bold">Phone</p>
-                    <p className="text-xs mt-2 text-gray-600">000-111-2222</p>
+                    <p className="text-xs mt-2 text-gray-600">000-0000-0000</p>
                 </div>
                 <div className="mt-6 flex justify-around">
                     <div>
