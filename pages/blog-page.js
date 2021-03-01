@@ -3,7 +3,7 @@ import Post from "../components/Post";
 import Link from "next/link";
 import { getAllPostsData } from "../lib/posts";
 
-const Blog = ({ posts }) => {
+export default function Blog({ posts }) {
   return (
     <Layout title="Blog">
       <div className="text-2xl mt-4">
@@ -21,9 +21,7 @@ const Blog = ({ posts }) => {
       </ul>
     </Layout>
   );
-};
-
-export default Blog;
+}
 
 export async function getStaticProps() {
   const posts = await getAllPostsData();
